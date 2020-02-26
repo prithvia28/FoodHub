@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Canteen</title>
+    <link href="home.css" rel="stylesheet" media="all">
+    <style>
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color:black;
+            color: white;
+            text-align: center;
+        }
+        h2{
+            color: rgb(238, 218, 40);
+           margin-left: 600px;
+           margin-top: 100px;
+           font-size: 50px;
+           font-weight:5000;
+           text-shadow: 2px 2px black;
+
+        }
+        @media screen and (max-width: 600px) {
+   h2{
+       margin-left: 35%;
+       margin-top: 50%;
+    }
+}
+    </style>
+</head>
+<div class="topnav">
+    <a class="active" href="#home">Home</a>
+    <a href="menu1.php">Menu</a>
+    <a href="login.php">Order Online</a>
+    <a href="about.html">About</a>
+    
+    <div class="topnav-right">
+        <a href="http://localhost/New%20folder/login.php">Login</a>
+        <a href="http://localhost/New%20folder/register.php">Signup</a>
+    </div>
+</div>
+
+<body background="./food.jpg" ; style="background-position: center;background-repeat: no-repeat;">
+    <h2><b>Food Hub </b></h2>
+    <a href="menu1.php" class="button alignmenu">See Menu</a>
+    <a href="login.php" class="button alignorder">Order Online</a>
+    <div class="footer">
+            <p>Healthy-fast-casual food, crafted with love by FOOD HUB</p>
+             <p>© Copyright 2019 | All rights reserved</p>
+          </div>
+</body>
+
+</html>
